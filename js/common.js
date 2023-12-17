@@ -1,8 +1,3 @@
-/* 画像先読み */
-$('.container').each(function () {
-    $("<img>").attr("src", $(this).attr('href'));
-});
-
 /* 円表示設定 */
 let menu_btn_name = ".menu-button";
 let swt = document.querySelector(".sw-toggle");
